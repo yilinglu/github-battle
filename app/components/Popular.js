@@ -15,7 +15,6 @@ function SelectLanguage(props) {
                             props.onSelect(lan);
                         }}
                         key={lan}>
-                        {lan}
                     </li>
                 )
             })
